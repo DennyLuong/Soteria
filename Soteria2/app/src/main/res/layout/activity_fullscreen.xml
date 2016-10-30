@@ -1,31 +1,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#304FFE"
-    android:orientation="vertical"
-    tools:context="com.example.looka.soteria.FullscreenActivity"
-    android:id="@+id/linearlayout">
+    android:orientation="vertical">
+    tools:context="com.enabledisablebluetooth_android_examples.com.FullscreenActivity" >
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rescue Me!!! My buttocks are on fire!"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="30dp"
-        android:id="@+id/btn1"
+    android:id="@+id/start"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Rescue Me!!! My buttocks are on fire!"
+    />
+
+    <TextView
+        android:id="@+id/sense"
+        android:layout_width= "match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:text="Sensor"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="230dp"
+        android:layout_height="439dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         />
 
-    <Button
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text = "Yes, my buttcheeks are saved"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/btn2"/>
+        android:layout_above="@+id/switch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:gravity="center"
+        android:text="Bluetooth status show here"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
 
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
 
-
-</LinearLayout>
