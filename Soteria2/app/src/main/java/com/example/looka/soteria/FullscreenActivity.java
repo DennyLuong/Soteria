@@ -83,7 +83,7 @@ public class FullscreenActivity extends AppCompatActivity {
         Random g = new Random();
         int colorStart;
         int colorEnd;
-        int num = g.nextInt(50)+1;
+        int num = g.nextInt(50);
         for(int i = 0 ; i<50 ; i++) {
             if(num > 25)
             {

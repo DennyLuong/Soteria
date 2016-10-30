@@ -8,7 +8,7 @@
     android:id="@+id/start"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Rescue Me!!! My buttocks are on fire!"
+    android:text="Rescue Me."
     />
 
     <TextView
@@ -17,7 +17,8 @@
         android:layout_height="match_parent"
         android:src="@mipmap/ic_launcher"
         android:text="Sensor"
-        android:layout_gravity="center_horizontal"/>
+        android:textSize="40dp"
+        android:gravity="center"/>
 
 
     <Switch
