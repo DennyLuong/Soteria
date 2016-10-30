@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304FFE"
+    android:orientation="vertical"
+    tools:context="com.example.looka.soteria.FullscreenActivity"
+    android:id="@+id/linearlayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rescue Me!!! My buttocks are on fire!"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:id="@+id/btn1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Yes, my buttcheeks are saved"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn2"/>
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+</LinearLayout>
